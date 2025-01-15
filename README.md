@@ -19,4 +19,9 @@ Keywords: Healthcare, Resource Utilization, Time series forecasting, Predictive 
 
 The results indicate that our models are effective in predicting hospital bed demands with high accuracy and minimal autocorrelation, which suggests that the models are well-calibrated for forecasting future healthcare resource needs.
 
+## Forecasting Results
+
+Below is the plot showing the bed utilization forecast:
+![Bed Utilization Forecast](images/plot.png)
+
 For a more detailed analysis, see the [Results Analysis File](results.md).
