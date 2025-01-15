@@ -22,6 +22,6 @@ The results indicate that our models are effective in predicting hospital bed de
 ## Forecasting Results
 
 Below is the plot showing the bed utilization forecast:
-![Bed Utilization Forecast](images/plot.png)
+![Bed Utilization Forecast](Historical and Forecasted Hospital Resource Usage.png)
 
 For a more detailed analysis, see the [Results Analysis File](results.md).
