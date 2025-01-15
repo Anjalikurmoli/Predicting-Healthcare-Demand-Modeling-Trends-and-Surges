@@ -24,4 +24,7 @@ The results indicate that our models are effective in predicting hospital bed de
 Below is the plot showing the bed utilization forecast:
 [Bed Utilization Forecast](Historical_and_Forecasted_Hospital_Resource_Usage.png)
 
+Another plot shows the correlation between COVID-19 cases and ICU bed occupancy:
+[COVID-19 Cases vs ICU Beds]( )
+
 For a more detailed analysis, see the [Results Analysis File](results.md).
