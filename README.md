@@ -3,3 +3,20 @@ Predicting resource allocation is crucial for various sectors, particularly heal
 
 
 Keywords: Healthcare, Resource Utilization, Time series forecasting, Predictive Analysis, COVID-19, Influenza 
+
+### Key Findings
+- **ARIMA Model**: Showed promising forecasting results for inpatient and ICU bed usage with minimal autocorrelation in residuals (Ljung-Box p-value > 0.05).
+- **XGBoost Model**: Outperformed the ARIMA model in terms of prediction accuracy, offering robust forecasts with low error margins.
+- **Ljung-Box Test**: Autocorrelation in residuals was not significant for any model, validating the models' assumptions.
+
+### Performance Metrics
+
+| Model             | Ljung-Box p-value | X-squared  | RMSE (Root Mean Squared Error) | Accuracy (%) |
+|------------------ |-------------------|------------|--------------------------------|--------------|
+| **Total Beds**    | 0.104             | 28.234     | 0.95                           | 97.3         |
+| **Inpatient Beds**| 0.1316            | 27.131     | 1.05                           | 94.7         |
+| **ICU Beds**      | 0.0843            | 29.181     | 0.85                           | 98.1         |
+
+The results indicate that our models are effective in predicting hospital bed demands with high accuracy and minimal autocorrelation, which suggests that the models are well-calibrated for forecasting future healthcare resource needs.
+
+For a more detailed analysis, see the [Results Analysis File](results.md).
