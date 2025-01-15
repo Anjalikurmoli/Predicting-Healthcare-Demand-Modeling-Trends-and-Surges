@@ -25,6 +25,12 @@ Below is the plot showing the bed utilization forecast:
 [Bed Utilization Forecast](Historical_and_Forecasted_Hospital_Resource_Usage.png)
 
 Another plot shows the correlation between COVID-19 cases and ICU bed occupancy:
-[COVID-19 Cases vs ICU Beds]( )
+[COVID-19 Cases vs ICU Beds](Impact_of_COVID_19_and_Influenza_on_Inpatient_Bed_Usage_Actual_vs_Predicted.png)
 
 For a more detailed analysis, see the [Results Analysis File](results.md).
+
+## Check Out Our Website
+
+For more detailed information and updates, visit our official website:
+
+[Visit Our Website](https://sites.google.com/sdsu.edu/bda600-healthcare-demand/home)
